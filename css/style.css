@@ -1,0 +1,40 @@
+#main-navbar {
+  background-color: blue;
+  overflow: hidden;
+}
+#navbar-container {
+   width: 100%;
+   position: relative;
+}
+
+#main-navbar ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  float: left;
+
+}
+#main-navbar ul li {
+  list-style-type: none;
+  float: left;
+  display: block;
+  right: 50%;
+  position: relative;
+}
+
+#main-navbar ul li a {
+  display: block;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #000;
+
+}
+
+#onpage {
+  text-decoration: underline overline;
+}
